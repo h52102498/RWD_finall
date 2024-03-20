@@ -212,6 +212,92 @@ table {
     font-size: 16px;
     text-align: left;
 }
+.review{
+    background-color: #eee9e7;
+}
+.review h2{
+    color: #3D1101;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.review-list{
+    display: flex;
+}
+.review-list img{
+    float: left;
+    margin-right: 13px;
+    margin-left: 42px;
+    border-radius: 50%;
+}
+.review-list h3,p{
+    color: #3D1101;
+}
+.review-list h3{
+    font-size: 18px;
+    margin-bottom: 22px;
+    margin-top: 30px;
+}
+.review-list p{
+    font-size: 16px;
+    text-align: left;
+    margin-left: 122px;
+}
+.review-list h4{
+    color: rgba(61,17,0,0.75);
+    margin: 16px 0px 50px 250px;
+   
+}
+.booking{
+    background-color: #fafafa;
+}
+.booking h2{
+    color: #3D1101;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+.booking-content{
+    display: flex;
+}
+.booking-map-img{
+    margin: 0px 20px 50px 38px;
+    
+}
+.form-button{
+    margin-left: 100px;
+}
+.success,.cancel{
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: rgba(0, 0, 0, .8);
+    border: none transparent;
+    background-color: gray;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.cancel:hover{
+    background: #b2afaf;
+}
+.success{
+    background: #f56c23;
+}
+.success:hover{
+    background: #f49c6d;
+}
+.vegetarian{
+    display: flex;
+}
+.yes{
+    display: flex;
+}
+.no{
+    display: flex;
+}
+
 .footer{
     background: #eee9e7;
     display: flex;
@@ -222,7 +308,6 @@ table {
 .about{
     
 }
-
 .about h3{
     font-size: 24px;
     margin: 50px 145px 16px 43px;
