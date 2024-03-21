@@ -191,10 +191,10 @@ table {
     width: 48%;
     text-align: left;
 }
-.chef-content h3,h4,p{
+.chef-content h3,h4{
     color: #efe9e7;
     margin-left: 25px;
-    
+
 }
 .chef-content h3{
     font-size: 20px;
@@ -210,6 +210,8 @@ table {
 .chef-content p{
     font-size: 16px;
     text-align: left;
+    color: #efe9e7;
+    margin-left: 25px;
 }
 .review{
     background-color: #eee9e7;
