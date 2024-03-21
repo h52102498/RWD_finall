@@ -54,7 +54,6 @@ table {
     max-width: 1024px;
     margin: 0 auto;
 }
-
 .header{
     background: 
     rgba(0,0,0,0.75);
@@ -102,8 +101,6 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
 .banner .banner-content {
     padding: 0px 42px;
@@ -122,180 +119,77 @@ table {
     font-size: 16px;
     line-height: 1.5;
 }
-.content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #3D1101;
-    padding: 50px 0;
-    background: #eee9e7;
-}
-
-.content .content-text{
-    font-size: 20px;
-    line-height: 32px;
+.login{
+    padding: 50px;
     text-align: center;
-    position: relative;
-    margin-bottom: 30px;
-}
-.content-text::before,.content-text::after{
-    content: "";
-    position: absolute;
-    top: 50%;
-    width: 50%;
-    height: 1px;
-    background-color: #979797;
-}
-.content-text::before{
-    left: 0;
-    margin-left: -50%;
-}
-.content-text::after{
-    right: 0;
-    margin-right: -50%;
-}
-.content-item{
-    display: flex;
-    text-align: center;
-}
-.content-item li{
-    width: 33.3333%;
-    padding: 1%;
-    text-align: center;
-}
-.content-item img{
-    border-radius: 50%;
-}
-.content-item h3{
-    margin:20px 0 11px 0;
-    font-size: 18px;
-    color: #3D1101;
-}
-.content-item p{
-    text-align: left;
-    line-height: 1.2;
-    padding: 0 5%;
-    margin-left: 10px;
-    color: #3D1101;
-}
-.chef{
-    background-color: #3D1101;
-    display: flex;
-    height: 460px;
-}
-.chef-img{
-    height: 100%;
-    width: 47%;
-    margin-left: 42px;
-}
-.chef-content{
-    width: 48%;
-    text-align: left;
-}
-.chef-content h3,h4,p{
-    color: #efe9e7;
-    margin-left: 25px;
-    
-}
-.chef-content h3{
-    font-size: 20px;
-    line-height: 32px;
-    margin-top: 81px;
-   
-}
-.chef-content h4{
-    font-size: 16px;
-    margin-bottom: 16px;
-    
-}
-.chef-content p{
-    font-size: 16px;
-    text-align: left;
-}
-.review{
     background-color: #eee9e7;
-}
-.review h2{
-    color: #3D1101;
-    text-align: center;
-    font-size: 24px;
-    padding-top: 50px;
-    margin-bottom: 50px;
-}
-.review-list{
-    display: flex;
-}
-.review-list img{
-    float: left;
-    margin-right: 13px;
-    margin-left: 42px;
-    border-radius: 50%;
-}
-.review-list h3,p{
-    color: #3D1101;
-}
-.review-list h3{
-    font-size: 18px;
-    margin-bottom: 22px;
-    margin-top: 30px;
-}
-.review-list p{
-    font-size: 16px;
-    text-align: left;
-    margin-left: 122px;
-}
-.review-list h4{
-    color: rgba(61,17,0,0.75);
-    margin: 16px 0px 50px 250px;
-   
-}
-.booking{
-    background-color: #fafafa;
-}
-.booking h2{
-    color: #3D1101;
-    font-size: 24px;
-    text-align: center;
-    padding-top: 50px;
-    margin-bottom: 40px;
-}
-.booking-content{
-    display: flex;
-}
-.booking-map-img{
-    margin: 0px 20px 50px 38px;
-    
-}
-.form-button{
-    margin-left: 100px;
-}
-.success,.cancel{
-    font-family: inherit;
-    font-size: 100%;
-    padding: 0.5em 1em;
-    color: rgba(0, 0, 0, .8);
-    border: none transparent;
-    background-color: gray;
-    text-decoration: none;
-    border-radius: 2px;
-}
-.cancel:hover{
-    background: #b2afaf;
-}
-.success{
-    background: #f56c23;
-}
-.success:hover{
-    background: #f49c6d;
-}
-.vegetarian{
-    display: flex;
-}
-.yes{
-    display: flex;
-}
-.no{
-    display: flex;
+    .login__subtitle {
+      font-size: $text_xxl;
+      color: $color__primary;
+      font-weight: bold;
+      margin-top: 5px;
+      margin-bottom: 35px;
+    }
+    .login__content {
+      box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+      border-top: 4px solid #f56c23;
+      margin: 0 auto;
+      max-width: 300px;
+      padding: 15px;
+      h4 {
+        font-size: 18px;
+        font-weight: 1000;
+        margin-bottom: 16px;
+        color: #3D1101;
+      }
+      form {
+        .email__address {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+  
+          input {
+            width: 100%;
+          }
+        }
+        .password {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          width: 100%;
+          input {
+            width: 100%;
+          }
+        }
+  
+        a {
+          text-decoration: none;
+          color: #FF5E45;
+          font-size: 14px;
+          margin-bottom: 36px;
+          line-height: normal;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        .register__button {
+          text-decoration: none;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+        button {
+          align-self: flex-end;
+          background: #f56c23;
+          font-size: 14px;
+          padding: 6px 48px;
+          border-radius: 3px;
+        }
+        .button-register {
+          background-color: rgba(0, 0, 0, 0.35);
+        }
+      }
+    }
 }
 
 .footer{
@@ -348,7 +242,3 @@ table {
 .logo-link i{
     margin-left: 11px;
 }
-
-
-
-
